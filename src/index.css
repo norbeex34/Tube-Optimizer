@@ -3,5 +3,23 @@
 @tailwind utilities;
 
 body {
-  @apply bg-slate-50 text-slate-800;
+  /* Fondo con un gradiente sutil y moderno */
+  background: linear-gradient(to bottom right, #f1f5f9, #e2e8f0, #f8fafc);
+  background-attachment: fixed; /* El fondo se queda fijo al hacer scroll */
+  color: #334155; /* Slate-700 para un texto menos duro que el negro */
+}
+
+/* Barra de desplazamiento personalizada para que no desentone */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
 }
