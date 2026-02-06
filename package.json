@@ -19,7 +19,7 @@
     "stream-browserify": "^3.0.0",
     "util": "^0.12.5"
   },
-  "devDependencies": {
+"devDependencies": {
     "@types/react": "^18.2.64",
     "@types/react-dom": "^18.2.21",
     "@vitejs/plugin-react": "^4.2.1",
